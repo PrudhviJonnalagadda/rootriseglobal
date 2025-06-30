@@ -1,7 +1,7 @@
 body {
 
-    margin:20px;
-    background-color: slategrey;
+    margin:20px 0px;
+    background-color: #FFFEEE;
     font-family: 'Roboto';
 }
 
@@ -19,4 +19,5 @@ body {
     width: 20em;
     height: 20em;
     padding: 10px;
+    border: 2px solid blue;
 }
