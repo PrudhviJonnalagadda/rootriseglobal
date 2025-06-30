@@ -1,124 +1,220 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Digital Menu</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="./static/styles_temp.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
-        <h1>Hi, Welcome to RootRise Global digital menu.</h1>
-        <p>Explore our "Mana Telugu" range of pickles.</p>
-        <section class="veg-pickles">
-            <p>Vegetarian pickles</p>
-            <div class="container">
-                <div>
-                    <img src="static/images/mango.jpg" alt="spicy mango pickle" class="imagesizing"/>
-                    <ul>
-                        <li>250gms: $25</li>
-                        <li>500gms: $50</li>
-                        <li>1000gms: $70</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="static/images/tomato.jpg" alt="red tomato pickle" class="imagesizing"/>
-                    <ul>
-                        <li>250gms: $25</li>
-                        <li>500gms: $50</li>
-                        <li>1000gms: $70</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="static/images/red_chilli.png" alt="spicy red chilli pickle" class="imagesizing"/>
-                    <ul>
-                        <li>250gms: $25</li>
-                        <li>500gms: $50</li>
-                        <li>1000gms: $70</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="static/images/bitter_gourd.jpg" alt="bitter gourd pickle" class="imagesizing"/>
-                    <ul>
-                        <li>250gms: $25</li>
-                        <li>500gms: $50</li>
-                        <li>1000gms: $70</li>
-                    </ul>
-                </div>    
-                <div>
-                    <img src="static/images/ginger_pickle.jpg" alt="ginger pickle" class="imagesizing"/>
-                    <ul>
-                        <li>250gms: $25</li>
-                        <li>500gms: $50</li>
-                        <li>1000gms: $70</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="static/images/amla.jpg" alt="amla pickle" class="imagesizing"/>
-                    <ul>
-                        <li>250gms: $25</li>
-                        <li>500gms: $50</li>
-                        <li>1000gms: $70</li>
-                    </ul>
-                </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RootRise Global | Digital Menu</title>
+    <link href="./static/styles_temp.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1>Hi, Welcome to RootRise Global Digital Menu</h1>
+        <p>Explore our <strong>"Mana Telugu"</strong> range of pickles and snacks.</p>
+    </header>
 
+    <main>
+        <section class="menu-section veg-pickles">
+            <h2>Vegetarian Pickles</h2>
+            <div class="product-grid">
+                <!-- Repeat this block for each vegetarian pickle -->
+                <article class="product-card">
+                    <img src="static/images/mango.jpg" alt="Spicy Mango Pickle" class="imagesizing" />
+                    <i class="title">Mango*</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/tomato.jpg" alt="Red Tomato Pickle" class="imagesizing" />
+                    <i class="title">Tomato</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/red_chilli.png" alt="Spicy Red Chilli Pickle" class="imagesizing" />
+                    <i class="title">Red Chilli*</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/bitter_gourd.jpg" alt="Bitter Gourd Pickle" class="imagesizing" />
+                    <i class="title">Bitter Gourd</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/ginger_pickle.jpg" alt="Ginger Pickle" class="imagesizing" />
+                    <i class="title">Ginger</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/amla.jpg" alt="Amla Pickle" class="imagesizing" />
+                    <i class="title">Amla*</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="menu-section nonveg-pickles">
+            <h2>Non-Vegetarian Pickles</h2>
+            <div class="product-grid">
+                <!-- Placeholder duplicates for now; replace with actual non-veg images/info -->
+                <article class="product-card">
+                    <img src="static/images/chicken.jpg" alt="Spicy Chicken Pickle" class="imagesizing" />
+                    <i class="title">Broiler Chicken</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/country_chicken.png" alt="Spicy Country Chicken Pickle" class="imagesizing" />
+                    <i class="title">Country Chicken</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/prawns.jpg" alt="Prawns Pickle" class="imagesizing" />
+                    <i class="title">Prawns</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <!-- <article class="product-card">
+                    <img src="static/images/bitter_gourd.jpg" alt="Bitter Gourd Pickle" class="imagesizing" />
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/ginger_pickle.jpg" alt="Ginger Pickle" class="imagesizing" />
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/amla.jpg" alt="Amla Pickle" class="imagesizing" />
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article> -->
             </div>
         </section>
 
 
-        <section class="nonveg-pickles">
-            <p>Non-Vegetarian pickles</p>
-            <div class="container">
-                <div>
-                    <img src="static/images/mango.jpg" alt="spicy mango pickle" class="imagesizing"/>
+        <section class="menu-section snacks">
+            <h2>Snacks</h2>
+            <div class="product-grid">
+                <!-- Repeat this block for each vegetarian pickle -->
+                <article class="product-card">
+                    <img src="static/images/karapusa.jpg" alt="Karapusa" class="imagesizing" />
+                    <i class="title">Karapusa</i>
                     <ul>
                         <li>250gms: $25</li>
                         <li>500gms: $50</li>
                         <li>1000gms: $70</li>
                     </ul>
-                </div>
-                <div>
-                    <img src="static/images/tomato.jpg" alt="red tomato pickle" class="imagesizing"/>
-                    <ul>
-                        <li>250gms: $25</li>
-                        <li>500gms: $50</li>
-                        <li>1000gms: $70</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="static/images/red_chilli.png" alt="spicy red chilli pickle" class="imagesizing"/>
-                    <ul>
-                        <li>250gms: $25</li>
-                        <li>500gms: $50</li>
-                        <li>1000gms: $70</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="static/images/bitter_gourd.jpg" alt="bitter gourd pickle" class="imagesizing"/>
-                    <ul>
-                        <li>250gms: $25</li>
-                        <li>500gms: $50</li>
-                        <li>1000gms: $70</li>
-                    </ul>
-                </div>    
-                <div>
-                    <img src="static/images/ginger_pickle.jpg" alt="ginger pickle" class="imagesizing"/>
-                    <ul>
-                        <li>250gms: $25</li>
-                        <li>500gms: $50</li>
-                        <li>1000gms: $70</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="static/images/amla.jpg" alt="amla pickle" class="imagesizing"/>
-                    <ul>
-                        <li>250gms: $25</li>
-                        <li>500gms: $50</li>
-                        <li>1000gms: $70</li>
-                    </ul>
-                </div>
+                </article>
 
+                <article class="product-card">
+                    <img src="static/images/chekkalu.jpg" alt="Chekkalu" class="imagesizing" />
+                    <i class="title">Chekkalu (Chekka garalu)</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/ariselu_nuvvulu.jpg" alt="Ariselu with nuvvulu" class="imagesizing" />
+                    <i class="title">Ariselu (with Nuvvulu)</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/ariselu.jpg" alt="Ariselu" class="imagesizing" />
+                    <i class="title">Ariselu (Plain)</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/boondhi.jpg" alt="Boondhi" class="imagesizing" />
+                    <i class="title">Boondhi</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
+
+                <article class="product-card">
+                    <img src="static/images/masala_peanuts.jpg" alt="Masala Peanuts" class="imagesizing" />
+                    <i class="title">Masala Peanuts</i>
+                    <ul>
+                        <li>250gms: $25</li>
+                        <li>500gms: $50</li>
+                        <li>1000gms: $70</li>
+                    </ul>
+                </article>
             </div>
         </section>
 
-        <i>If you have any queries on how to place the order, please feel free to contact on 6239983870.</i>
-    </body>
+
+    </main>
+
+    <footer>
+        <p><i>If you have any queries on how to place the order or for any special requests, please feel free to contact us at <strong>6239983870. rootriseinternational@gmail.com</strong>.</i></p>
+        <p><i>* Subject to availability based on season.</i></p>
+    </footer>
+</body>
 </html>

@@ -104,7 +104,7 @@ ul {
 
 /* styles_temp.css */
 
-body {
+/* body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #f9f9f9;
     color: #333;
@@ -192,10 +192,10 @@ i {
     margin: 30px 0;
     color: #666;
     font-style: italic;
-}
+} */
 
 /* Responsive tweaks */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .container {
         flex-direction: column;
         align-items: center;
@@ -203,5 +203,292 @@ i {
 
     .container div {
         width: 90%;
+    }
+} */
+
+
+
+/* styles_temp.css */
+
+/* :root {
+    --primary: #2E8B57;
+    --accent: #f0f0f0;
+    --text-dark: #333;
+    --text-light: #fff;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+    --transition-speed: 0.3s;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--accent);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, var(--primary), #4CAF50);
+    color: var(--text-light);
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 4px 8px var(--card-shadow);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.menu-section {
+    margin-bottom: 60px;
+}
+
+.menu-section h2 {
+    color: var(--primary);
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px var(--card-shadow);
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+    position: relative;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-card ul {
+    list-style: none;
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.product-card ul li {
+    font-size: 1em;
+    padding: 4px 0;
+    color: #555;
+    border-bottom: 1px dashed #eaeaea;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.95em;
+    color: #666;
+    background-color: #fafafa;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer i {
+    font-style: italic;
+} */
+
+/* @media (hover: hover) {
+    .product-card::after {
+        content: "Tap to view";
+        position: absolute;
+        bottom: 12px;
+        right: 12px;
+        background: var(--primary);
+        color: white;
+        padding: 3px 8px;
+        font-size: 0.75em;
+        border-radius: 4px;
+        opacity: 0;
+        transition: opacity var(--transition-speed);
+    }
+
+    .product-card:hover::after {
+        opacity: 1;
+    }
+} */
+
+
+/* styles_temp.css */
+
+:root {
+    --primary-color: #2E8B57;
+    --secondary-color: #f9f9f9;
+    --highlight-color: #4CAF50;
+    --text-color: #333;
+    --card-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    --hover-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    --transition: 0.3s ease-in-out;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+header {
+    background: linear-gradient(to right, var(--primary-color), var(--highlight-color));
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: var(--card-shadow);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.menu-section {
+    margin-bottom: 50px;
+}
+
+.menu-section h2 {
+    color: var(--primary-color);
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+    transition: transform var(--transition), box-shadow var(--transition);
+    cursor: pointer;
+    position: relative;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--hover-shadow);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.product-card .title {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: var(--primary-color);
+}
+
+.product-card ul {
+    list-style: none;
+    padding: 15px 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.product-card ul li {
+    padding: 6px 0;
+    font-size: 1em;
+    color: #555;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.product-card ul li:last-child {
+    border-bottom: none;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 0.95em;
+    background-color: #f0f0f0;
+    color: #555;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Tooltip style on hover */
+.product-card::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: var(--primary-color);
+    color: white;
+    font-size: 0.75em;
+    padding: 4px 8px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity var(--transition);
+}
+
+.product-card:hover::after {
+    opacity: 1;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    .product-card img {
+        height: 160px;
+    }
+
+    .product-card .title {
+        font-size: 1em;
     }
 }
