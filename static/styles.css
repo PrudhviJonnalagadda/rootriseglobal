@@ -105,14 +105,27 @@ body {
     padding: 50px;
 }
 
-a {
+/* a {
 
     text-decoration: none;
     color: white;
-}
+} */
 
-.home:hover {
+/* .home:hover {
 
     font-size: 1.2em;
     color:coral;
+} */
+
+
+.img {
+
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
 }
