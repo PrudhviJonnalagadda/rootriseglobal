@@ -548,7 +548,7 @@ Preparation Note
     }
   }
   
-  .whatsapplink{
+  .whatsapplink, .emaillink{
 
     text-decoration: none;
     color: whitesmoke;
