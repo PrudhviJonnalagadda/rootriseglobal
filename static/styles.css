@@ -2,13 +2,16 @@
 Root Variables
 --------------------------------------------------------------*/
 :root {
-    --color-primary: #B71C1C;      /* Rich red */
-    --color-accent: #FFEBEE;      /* Soft pink background */
+    --color-primary: #B71C1C;      
+    --color-accent: #FFEBEE;     
     --color-bg: #FFFFFF;
     --color-dark-text: #212121;
     --font-heading: 'Montserrat', sans-serif;
     --font-body: 'Roboto', sans-serif;
   }
+
+
+ 
   
   /*--------------------------------------------------------------
   Reset & Base
@@ -545,3 +548,8 @@ Preparation Note
     }
   }
   
+  .whatsapplink{
+
+    text-decoration: none;
+    color: whitesmoke;
+  }
