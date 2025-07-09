@@ -2,10 +2,10 @@
 Root Variables
 --------------------------------------------------------------*/
 :root {
-    --color-primary: #B71C1C;      
+    --color-primary: #003049;      
     --color-accent: #FFEBEE;     
     --color-bg: #FFFFFF;
-    --color-dark-text: #212121;
+    --color-dark-text: #141e26;
     --font-heading: 'Montserrat', sans-serif;
     --font-body: 'Roboto', sans-serif;
   }
@@ -39,7 +39,7 @@ Root Variables
   Header & Navigation
   --------------------------------------------------------------*/
   header {
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     background: rgba(255, 255, 255, 0.95);
@@ -47,7 +47,7 @@ Root Variables
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.75rem 2rem;
+    padding: 0rem 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     z-index: 1000;
   }
@@ -58,7 +58,7 @@ Root Variables
   }
   
   .logo {
-    height: 40px;
+    height: 150px;
     margin-right: 0.75rem;
   }
   
@@ -559,3 +559,9 @@ Preparation Note
     text-decoration: none;
     color: whitesmoke;
   }
+
+  /* .digital-menu {
+
+    padding: 30px;
+    margin-bottom: 30px;
+  } */
