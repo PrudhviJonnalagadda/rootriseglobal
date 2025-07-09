@@ -5,7 +5,7 @@ Root Variables
     --color-primary: #003049;      
     --color-accent: #FFEBEE;     
     --color-bg: #FFFFFF;
-    --color-dark-text: #141e26;
+    --color-dark-text: #000000;
     --font-heading: 'Montserrat', sans-serif;
     --font-body: 'Roboto', sans-serif;
   }
@@ -30,7 +30,7 @@ Root Variables
   
   body {
     font-family: var(--font-body);
-    background-color: var(--color-accent);
+    /* background-color: var(--color-accent); */
     color: var(--color-dark-text);
     line-height: 1.6;
   }
@@ -39,8 +39,8 @@ Root Variables
   Header & Navigation
   --------------------------------------------------------------*/
   header {
-    position: absolute;
-    top: 0;
+    /* position: absolute; */
+    /* top: 0; */
     width: 100%;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(8px);
@@ -50,6 +50,9 @@ Root Variables
     padding: 0rem 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     z-index: 1000;
+    background-color: whitesmoke;
+    border: 2px solid red;
+    margin: 0px;
   }
   
   .logo-container {
@@ -565,3 +568,38 @@ Preparation Note
     padding: 30px;
     margin-bottom: 30px;
   } */
+
+
+.intro-section {
+
+  margin-top: 10px;
+  /* background-color: #003049; */
+  border: 2px solid red;
+
+}
+
+.intro-container {
+
+  display: flex;
+  flex-direction: row;
+}
+  
+.intro-text {
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  text-overflow: wrap;
+}
+
+.intro-elobaration {
+
+  padding: 10px;
+  text-align: center;
+}
+
+.intro-text-container{
+
+  background-color: #003049;
+}
